@@ -101,6 +101,7 @@ p {
 ul {
   color: var(--just-white);
   font-size: 1.4rem;
+  list-style: none;
 }
 
 #section-4 h2, h1 {
@@ -113,7 +114,7 @@ ul {
 
 .icons-container {
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 
 .icons-container svg {
@@ -124,6 +125,22 @@ ul {
 #SvgjsSvg1001 {
   width: 120px;
   height: 60px;
+}
+
+.ubuntu {
+  width: 100px;
+}
+
+#section-4 .row-2 {
+  margin: 10px auto 0;
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.chrome-dev {
+  width: 50px;
 }
 
 #section-5 {
@@ -145,6 +162,10 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#section-5 a {
+  margin: 0 10px;
 }
 
 #section-5 svg {
