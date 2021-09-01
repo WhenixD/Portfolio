@@ -138,7 +138,8 @@ ul {
   width: 60px;
 }
 
-.other-tools .row-1, .row-2 {
+.other-tools .row-1,
+.row-2 {
   margin: 30px auto 0;
   width: 270px;
   display: flex;
@@ -150,13 +151,98 @@ ul {
 }
 
 .section-3 {
-  margin-top: 100px;
+  margin-top: 200px;
   text-align: center;
+}
+
+.projects-container {
+  width: 300px;
+  margin: 75px auto 0;
+  display: block;
+  justify-content: center;
+}
+
+.project-card {
+  margin-top: 25px;
+}
+
+.projects-container .row-1,
+.projects-container .row-2 {
+  display: block;
+}
+
+.projects-container a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.projects-container img {
+  width: 270px;
+  border-radius: 5px;
+}
+
+.projects-container .project-info {
+  width: 270px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: var(--dark-purple);
+  padding: 20px 10px 5px;
+  border-radius: 5px;
+  position: relative;
+  top: -75px;
+}
+
+.project-info h3 {
+  margin-bottom: 10px;
+}
+
+.gh-icon {
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+  margin-left: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gh-icon img {
+  width: 40px;
+}
+
+.section-4 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.section-4 p {
+  text-align: justify;
+  text-justify: inter-word;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.section-4 h2 {
+  margin: 70px 0 50px;
+}
+
+.section-4 a {
+  text-decoration: none;
+  color: var(--just-white);
+  width: 264px;
+  height: 25px;
+  padding: 10px 30px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 50px;
+  background-color: var(--dark-blue);
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .footer {
   background-color: var(--bg-color);
-  padding: 50px 0;
+  padding: 200px 0;
   text-align: center;
   color: var(--just-white);
   font-style: italic;

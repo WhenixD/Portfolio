@@ -17,7 +17,7 @@
   </head>
   <body>
     <main class="main-content">
-      <section class="section-1">
+      <section id="section-1" class="section-1">
         <h1 class="title-blue">Hi, I'm Juan Manzanero Domínguez</h1>
         <h2 class="title-purple">Frontend Developer</h2>
         <div class="bio">
@@ -31,19 +31,20 @@
           <picture>
             <a
               href="https://www.linkedin.com/in/juan-carlos-manzanero-dom%C3%ADnguez-2996b8201/"
+              target="_blank"
             >
               <img src="./src/svg/linkedin.svg" alt="linkedin URL" />
               <p>Linkedin</p>
             </a>
           </picture>
           <picture>
-            <a href="https://github.com/WhenixD">
+            <a href="https://github.com/WhenixD" target="_blank">
               <img src="./src/svg/github.svg" alt="github URL" />
               <p>Github</p>
             </a>
           </picture>
           <picture>
-            <a href="https://twitter.com/WhenixD">
+            <a href="https://twitter.com/WhenixD" target="_blank">
               <img src="./src/svg/twitter.svg" alt="twitter url" />
               <p>Twitter</p>
             </a>
@@ -123,7 +124,7 @@
           </div>
           <div class="row-2">
             <picture>
-              <img src="./src/svg/ChromeDevTools.png" alt="ChromeDevTools" />
+              <img src="./src/img/ChromeDevTools.png" alt="ChromeDevTools" />
             </picture>
             <picture>
               <img src="./src/svg/figmaCircle.svg" alt="Figma Logo" />
@@ -136,6 +137,96 @@
       </section>
       <section class="section-3">
         <h2 class="title-white">What I've done</h2>
+        <div class="projects-container">
+          <div class="row-1">
+            <article class="project-card">
+              <a href="https://whenixd.github.io/pokidex/" target="_blank">
+                <picture>
+                  <img
+                    src="./src/img/pokedex-capture.PNG"
+                    alt="Pokidex Project Image"
+                  />
+                </picture>
+                <div class="project-info">
+                  <h3 class="title-white">
+                    Pokídex
+                  </h3>
+                  <p>
+                    Single Page Application with JavaScript and the PokéAPI.
+                  </p>
+                  <div class="gh-icon">
+                    <a
+                      href="https://github.com/WhenixD/pokidex"
+                      target="_blank"
+                    >
+                      <picture class="github-logo">
+                        <img src="./src/svg/github.svg" alt="Github Icon" />
+                      </picture>
+                    </a>
+                  </div>
+                </div>
+              </a>
+            </article>
+            <article class="project-card">
+              <a href="https://whenixd.github.io/todo-react/" target="_blank">
+                <picture>
+                  <img src="./src/img/todo.PNG" alt="TODO Project Image" />
+                </picture>
+                <div class="project-info">
+                  <h3 class="title-white">Todo React</h3>
+                  <p>TODO List developed with React, using Hooks and States.</p>
+                  <div class="gh-icon">
+                    <a
+                      href="https://github.com/WhenixD/todo-react"
+                      target="_blank"
+                    >
+                      <picture class="github-logo">
+                        <img src="./src/svg/github.svg" alt="Github Icon" />
+                      </picture>
+                    </a>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </div>
+          <div class="row-2">
+            <article class="project-card">
+              <a href="https://whenixd.github.io/SimonGame/" target="_blank">
+                <picture>
+                  <img
+                    src="./src/img/simon-capture.PNG"
+                    alt="Simon Game Project ImageF"
+                  />
+                </picture>
+                <div class="project-info">
+                  <h3 class="title-white">
+                    Simon Game
+                  </h3>
+                  <p>Videogame developed with JQuery.</p>
+                  <div class="gh-icon">
+                    <a
+                      href="https://github.com/WhenixD/SimonGame"
+                      target="_blank"
+                    >
+                      <picture class="github-logo">
+                        <img src="./src/svg/github.svg" alt="Github Icon" />
+                      </picture>
+                    </a>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section-4">
+        <p>Learning by myself creating personal projects it makes me very happy, and I want to seek for bigger projects, not only technically, as well on impact.</p>
+        <h2 class="title-purple">
+          So, what you say?
+        </h2>
+        <a href="#section-1">
+          Let's work together!
+        </a>
       </section>
     </main>
     <footer class="footer">
